@@ -10,8 +10,8 @@ function distanceFromHqInFeet(pickup) {
   return distance * 264;
 };
 
-function distanceTravelledInFeet() {
-
+function distanceTravelledInFeet(starting, ending) {
+  return calculateVertical(starting, ending);
 };
 
 function calculatesFarePrice(start, destination) {
